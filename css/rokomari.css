@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+/*  start Row One*/
+.tamplate{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.row1{
+    width: 100%;
+    height: 70px;
+    background-color: #f1f2f4;
+}
+.midpart{
+    width: 1060px;
+    margin: 0 auto;
+}
+.ads_banner{}
+.ads_banner img{
+    width: 1060px;
+    height: 70px;
+}
+/*Start Row Two*/
+.row2{
+    width: 100%;
+    height: 80px;
+    
+}
+/*Section one start*/
+.header1{
+     width: 100%;
+    height: 80px;
+    display: inline-block;
+   padding: 10px;
+}
+
+/*logo & search section*/
+.header1_left{
+    width: 70%;
+    float: left;
+    display: inline-block;
+   
+    
+}
+.logo{
+    width: 20%;
+    float: left;
+    
+    
+}
+.logo img{
+    width: 100px;
+}
+.searh{
+    width: 80%;
+    float: right;
+   
+}
+.searh form{
+    
+}
+.searh form input{
+    width: 500px;
+    height: 35px;
+    padding-top: 50px;
+}
+
+.searh img{
+    width: 60px;
+}
+.{}
+.{}
+cart & signup section
+.header1_right{
+    width: 30%;
+    display: inline-block;
+    
+   
+}
+.cart{
+   width: 15%; 
+    float: left;
+   
+}
+.cart img{
+    width: 50px;
+    float: right;
+    
+}
+.button{
+    width: 15%;
+    float: right;
+}
+.button button{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+/*Start Row Three*/
+.row3{
+    height: 100px;
+    width: 100%;
+    
+}
+.nav{
+     height: 100px;
+    width: 100%;
+   float: left;
+    
+}
+.nav ul{
+    float: left;
+    
+    
+}
+.dropdown{
+    
+    position: absolute;
+    
+    
+}
+.nav ul li{
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+    
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav ul a ul{
+    
+}
+.nav ul a ul li{
+    float: left;
+    
+}
+.nav ul a ul li a{}
+/*Start Row four*/
+.row4{
+    width: 100%;
+    height: 200px;
+
+}
+.slider{
+    background: url("Images/silder.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    animation: slider 10s infinite linear; 
+    
+    
+   
+}
+@keyframes slider{
+    0%{
+    background: url("Images/silder.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    
+        
+    }
+    25%{
+        background: url("Images/silder1.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+        
+    }
+    50%{
+        background: url("Images/silder2.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+        
+    }
+    75%{
+        background: url("Images/silder3.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+        
+    }
+}
+/* Start Row Five*/
+.row5{
+    height: 350px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    
+    
+}
+.card{
+   box-shadow: 2px 3px 10px 5px black; 
+}
+.book_gallary{
+    
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    
+    
+}
+.book{
+    height: 250px;
+    width: 130px;
+    padding-left: 10px;
+   
+    
+    
+}
+.book:hover{
+    height: 250px;
+    width: 130px;
+    background-color: #6610f2;
+}
+.book img{
+    width: 120px;
+    height: 180px;
+    
+}
+.book img:hover{
+    width: 125px;
+    height: 200px;
+    background-color: #6610f2;
+}
+
+.book p{}
+.book span{}
+/*start Row Six*/
+.row6{
+    width: 100%;
+    height: 200px;
+}
+.mid_img{
+    width: 100%;
+    height: 200px;
+    background-color: #6c757d;
+
+
+   
+}
+.mid_img:hover{
+     width: 100%;
+    height: 200px;
+    background-color: #6610f2;
+}
+
+.mid_img img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+<!--  Start Row Seven-->
+
+.row7{
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+    
+}
+.cardsp{
+    width: 100%;
+    height: 500px;
+    display: flex;
+     overflow: scroll;
+    display: flex;
+    
+    
+}
+.card_con{
+    width: 320px;
+    height: 480px;
+    background-color: crimson;
+    border: 2px solid black;
+ 
+   
+}
+.card_con h1{}
+.card_bg{
+    width: 300px;
+   
+    background-color: whitesmoke;
+    
+    margin: 0 auto;
+    
+}
+.button {
+    display: flex;
+    width: 300px;
+    height: 40px;
+}
+.button button{}
+.card_art{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+   
+}
+.num{
+    padding-right: 5px;
+}
+.num h1{}
+.img{
+    padding-right: 5px;
+}
+.img img{
+    width: 70px;
+    height: 100px;
+}
+.nam h3{}
+/*Start Row 8*/
+.row8{
+    height: 250px;
+    width: 100%;
+    
+    
+}
+.cetagory{
+    
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+   
+    
+}
+.card_gory{
+    
+    margin-top: 40px;
+    margin-left: 10px;    
+    height: 130px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+.card_gory h1{
+   
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+/*
+color code
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+*/
+
+
+
+
+
+
+
+
+
